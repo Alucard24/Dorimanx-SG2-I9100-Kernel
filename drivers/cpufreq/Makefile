@@ -21,7 +21,6 @@ obj-$(CONFIG_CPU_FREQ_GOV_LULZACTIVEW)	+= cpufreq_lulzactivew.o
 
 # CPUfreq cross-arch helpers
 obj-$(CONFIG_CPU_FREQ_TABLE)		+= freq_table.o
-obj-$(CONFIG_ALUCARD_HOTPLUG)		+= alucard_hotplug.o
 
 obj-$(CONFIG_CPU_FREQ_DVFS_MONITOR)	+= dvfs_monitor.o
 
